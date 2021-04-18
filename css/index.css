@@ -71,6 +71,23 @@ p {
     margin: 0 auto;
 }
 
+header div {
+    display:flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    padding-bottom: 40px;
+}
+header div nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding-left: 60px;
+}
+.jumbo{
+    padding-bottom: 30px;
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -83,6 +100,12 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+.top-about {
+    flex-direction: row;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black; 
 }
 
 .middle-content {
@@ -112,6 +135,80 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box:nth-child(1) {
+    background: teal;
+}
+.middle-content .boxes .box:nth-child(2) {
+    background: gold;
+}
+.middle-content .boxes .box:nth-child(3) {
+    background: cadetblue;
+}
+.middle-content .boxes .box:nth-child(4) {
+    background: coral;
+}
+.middle-content .boxes .box:nth-child(5) {
+    background: crimson;
+}
+.middle-content .boxes .box:nth-child(6) {
+    background: forestgreen;
+}
+.middle-content .boxes .box:nth-child(7) {
+    background: darkorchid;
+}
+.middle-content .boxes .box:nth-child(8) {
+    background: hotpink;
+}
+.middle-content .boxes .box:nth-child(9) {
+    background: indigo;
+}
+.middle-content .boxes .box:nth-child(10) {
+    background: dodgerblue;
+}
+.middle-about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+
+
+}
+.middle-about div {
+    display: inline;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+    margin-top: 20px;
+    width: min-content;
+    padding-bottom: 50px ;
+}
+
+.middle-about div img{
+    width:min-content;
+}
+.middle-about div p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.middle-about div h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.middle-about div a {
+    text-decoration: none;
+    border: 3px solid black;
+    color: black;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 15px ;
+    
+}
+.middle-about div a:hover{
+    color:white;
+    background: black;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -124,6 +221,14 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+.bottom-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bottom-about p {
+    margin-bottom: 20px;
 }
 
 footer {
